@@ -1,0 +1,642 @@
+html,
+body {
+    font-family: Poppins, sans-serif;
+    width: 100wv;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.container-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav-link.active,
+.navbar-nav .nav-link:focus {
+    color: #0082f3 !important;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #061829;
+    font-size: 36px;
+    line-height: 1.25em;
+    font-weight: 700;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #061829;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.gray-100 {
+    color: #666f77
+}
+
+.blue-100 {
+    color: #0082f3
+}
+
+.black-100 {
+    color: #061829
+}
+
+.b-20 {
+    bottom: -20px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-16 {
+    margin-right: 16px
+}
+
+.mr-32 {
+    margin-right: 32px;
+}
+
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.my-32 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.ml-24 {
+    margin-left: 24px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-12 {
+    margin-bottom: 12px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.px-14 {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.py-12 {
+    padding-top: 12px !important;
+    padding-top: 12px !important;
+}
+
+.pl-24 {
+    padding-left: 24px;
+}
+
+.pl-12 {
+    padding-left: 12px;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.px-24 {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.px-36 {
+    padding-right: 36px;
+    padding-left: 36px
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pb-32 {
+    padding-bottom: 32px
+}
+
+
+.dropdown-menu {
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+}
+
+.dropdown-item {
+    padding: 10px 20px !important;
+    background-color: white !important;
+}
+
+/* a:not([class*="nav-item"]):hover {
+    color: #0082f3;
+} */
+
+.no-hover:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+.contactbtn-top {
+    border-radius: 4px !important;
+    font-size: 16px !important;
+    margin-left: 12px !important;
+    padding: 16px 32px !important;
+    text-align: center;
+}
+
+a:not([class*="contactbtn-top"]):hover {
+    color: #0082f3;
+}
+
+.contactbtn-top:hover {
+    color: transparent;
+}
+
+.tel:hover,
+.envelope:hover {
+    color: #6c757d;
+}
+
+.title-start::after {
+    content: "";
+    width: 30px;
+    height: 4px;
+    margin-bottom: 7px;
+    margin-left: 8px;
+    background-color: #247cff;
+    position: absolute;
+    top: 10px;
+}
+
+.title-start-third::after {
+    content: "";
+    width: 30px;
+    height: 4px;
+    margin-bottom: 7px;
+    margin-left: 8px;
+    background-color: #247cff;
+    position: absolute;
+    top: 20px;
+}
+
+.section-second {
+    background-color: #f1f6fb;
+}
+
+.section-third {
+    background-color: #f1f6fb;
+}
+
+
+.contact-bar-wrapper {
+    box-shadow: 4px 0 36px 0 rgb(140 170 205 / 16%);
+    position: relative;
+    z-index: 6;
+    max-width: 90%;
+    margin-top: -140px;
+    padding: 48px 24px 43px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #fff;
+    box-shadow: 4px 0 36px 0 rgba(140, 170, 205, 0.16);
+}
+
+.arrow-wrap {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 20px;
+    right: -30px;
+    position: absolute;
+    bottom: 90px;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 0;
+    top: 20px;
+    left: 14px;
+    right: 6px;
+    width: 32px;
+}
+
+.figure-caption {
+    max-width: 380px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 0 3px 6px 0 rgba(155, 188, 232, 0.29);
+    margin-top: 12px;
+}
+
+.wrap-img {
+    width: 80%;
+    margin-bottom: 12px;
+    position: relative;
+    display: inline-block;
+}
+
+.card-img-top {
+    height: 100px;
+
+}
+
+.card-body {
+    padding: 40px 12px !important;
+}
+
+
+.help {
+    padding-top: 140px;
+}
+
+.blog-post-title {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 1.32em;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.blog-post-date {
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.form-control {
+    height: 64px;
+    min-height: 64px;
+    margin-bottom: 32px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border: 1px solid #cad6e1;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: all 200ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    font-size: 18px;
+}
+
+.form-label {
+    margin-bottom: 16px;
+    color: #061829;
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+}
+
+.wrapper-forms {
+    padding-top: 140px;
+
+}
+
+.wrap-first-form {
+    padding: 90px 120px;
+    border-top-right-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 -8px 34px 0 rgba(88, 112, 173, 0.08);
+}
+
+.us-btn {
+    padding: 16px 32px !important;
+    margin-bottom: 24px;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 50%;
+}
+
+.header-visit {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.title-location {
+    color: #a9cbff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.location-item {
+    margin-bottom: 12px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    width: 70%;
+}
+
+.form-info {
+    background-color: #19253e;
+    padding: 100px 48px;
+}
+
+.send-btn {
+    padding: 16px 32px !important;
+}
+
+.title-second-form {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+
+.bg-color {
+    background-color: #f1f6fb;
+}
+
+.location-phone {
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+.header-footer {
+    padding-top: 80px;
+    padding-bottom: 44px;
+}
+
+.footer-li {
+    margin-bottom: 14px;
+}
+
+.footer-title {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.call-number {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.call-icon {
+    border: #0082f3;
+}
+
+.img-info {
+    width: 22px;
+}
+
+.location-img {
+    width: 22px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #dbe5ee;
+}
+
+.wrap-pic {
+    width: 650px;
+    max-width: 100%;
+}
+
+.title-top {
+    padding-top: 140px;
+}
+
+.wrapper-services {
+    background-color: #f1f6fb;
+}
+
+
+
+@media (max-width: 768px) {
+    .container-default {
+        padding: 60px 18px 32px 18px;
+    }
+
+    .wrapper-img {
+        padding-bottom: 80px;
+        background-color: #f1f6fb;
+    }
+
+    .title-bold {
+        font-size: 28px;
+        font-weight: 700 !important;
+    }
+
+    .title-top {
+        padding-top: 80px;
+    }
+
+
+    .wrap-pic {
+        width: 650px;
+        max-width: 100%;
+    }
+
+    .btn-services {
+        padding-top: 32px;
+        padding-bottom: 80px;
+    }
+
+    .banner {
+        display: block;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 480px;
+    }
+
+    .banner-woman {
+        background-image: url("/img/woman.jpg");
+    }
+
+    .banner-nurses {
+        background-image: url("/img/nurses.jpeg");
+    }
+
+    .banner-couple {
+        background-image: url("/img/couple.jpeg");
+    }
+
+
+    .contact-bar-wrapper {
+        margin-top: 4px;
+    }
+
+    .arrow-wrap {
+        display: none !important;
+    }
+
+    .specialties {
+        margin-top: 16px;
+        margin-bottom: 10px;
+        font-size: 36px;
+        line-height: 1.25em;
+        font-weight: 700;
+    }
+
+    .contact-bar-wrapper {
+        max-width: 100%;
+    }
+
+    /* bottom Forms */
+    .title-first-form {
+        font-size: 28px;
+        line-height: 1.25em;
+        color: #061829;
+        font-weight: 700;
+    }
+
+    .footer-title {
+        margin-bottom: 16px;
+        margin-top: 10px;
+
+    }
+
+    .wrap-call {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .wrap-first-form {
+        padding: 80px 24px;
+    }
+
+    .navbar-toggler {
+        right: 24px
+    }
+
+    .wrap-img {
+        width: 40%;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .btn-services {
+        padding-top: 24px;
+        padding-bottom: 140px;
+    }
+
+    .title-bold {
+        font-size: 36px;
+        font-weight: 700 !important;
+    }
+
+    .hospital-center {
+        font-size: 54px;
+    }
+
+    .banner {
+        display: block;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 812px;
+    }
+
+    .banner-woman {
+        background-image: url("/img/woman.jpg");
+    }
+
+    .section-bar {
+        padding-top: 0px;
+        padding-bottom: 60px;
+        background-color: #f1f6fb;
+    }
+
+    .banner-nurses {
+        background-image: url("/img/nurses.jpeg");
+    }
+
+    .banner-about {
+        background-image: url("/img/takecare.jpeg");
+    }
+
+    .banner-couple {
+        background-image: url("/img/couple.jpeg");
+    }
+
+    .special-text {
+        max-width: 480px;
+        width: 110%;
+    }
+
+    .specialties {
+        margin-top: 16px;
+        margin-bottom: 10px;
+        font-size: 36px;
+        line-height: 1.25em;
+        font-weight: 700;
+    }
+
+    .card-img-top {
+        height: 96px;
+        left: -70px;
+        top: -90px;
+        position: absolute;
+    }
+
+    .card-title {
+        text-align: left;
+    }
+
+    /* bottom forms */
+    .title-first-form {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 36px;
+        color: #061829;
+        font-weight: 700;
+    }
+
+    .footer-title {
+        margin-bottom: 26px;
+    }
+
+    .social-network {
+        text-align: end;
+    }
+}

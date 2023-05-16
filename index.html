@@ -1,0 +1,657 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Clinic</title>
+  <meta name="description" content="This is a description">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="theme-color" content="#fafafa">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container-fluid px-0">
+    <div class="container-top">
+      <div class="col-md-9">
+        <div class="col-md-12 row align-content-end align-items-center">
+          <nav class="navbar navbar-expand-lg navbar-light border-bottom py-3 d-none d-md-block">
+            <div class="container-fluid">
+              <div class="d-flex align-items-center gap-2 mr-32">
+                <img src="./img/tel.svg" alt="tel" class="mx-1 d-inline-block" />
+                <a href="/" class="text-decoration-none fw-bold fs-6 gray-100">(304)850-7080</a>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <img src="./img/envelope.svg" alt="envelope" class="mx-1 d-inline-block" />
+                <a href="/" class="text-decoration-none fw-bold fs-6 gray-100">info@medica.com</a>
+              </div>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="d-flex align-items-center gap-3">
+                  <a class="icon-link" href="#"> <i class="fa fa-facebook fa-2x"></i></a>
+                  <a class="icon-link" href="#"> <i class="fa fa-twitter fa-2x"></i></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- NAVBAR -->
+          <nav class="navbar navbar-expand-lg navbar-default py-4">
+            <div class="container-fluid">
+              <div class="row col-md-12">
+                <div class="col-md-3">
+                  <a href="#" class="navbar-brand d-inline-block">
+                    <img src="./img/logo.svg" alt="logo" />
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+                <div class="col-md-9 row collapse navbar-collapse justify-content-end" id="navbarContent">
+                  <ul class="navbar-nav col-md-9" role="button">
+                    <li class="nav-item">
+                      <a class="nav-link active text-decoration-none fw-bold fs-6 gray-100" aria-current="page"
+                        href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-decoration-none fw-bold fs-6 gray-100" href="/">
+                        About Us
+                      </a>
+                    </li>
+                    <!-- DROPDOWN Link First-->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link text-decoration-none fw-bold fs-6 text-dark dropdown-toggle" href="/"
+                        id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Doctors
+                      </a>
+                      <ul class="dropdown-menu list-unstyled" aria-labelledby="navbarDropdown">
+                        <li class="nav-item">
+                          <a class="dropdown-item nav-link" href="#">Doctors1</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="dropdown-item nav-link" href="#">Doctors2</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="dropdown-item nav-link" href="#">Doctor Individual
+                            Template</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- DROPDOWN Link Second-->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link text-decoration-none fw-bold fs-6 text-dark dropdown-toggle" href="#"
+                        id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Services
+                      </a>
+                      <ul class="dropdown-menu list-unstyled" aria-labelledby="navbarDropdown">
+                        <li class="nav-item">
+                          <a class="dropdown-item nav-link" href="#">Services1</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="dropdown-item nav-link" href="#">Services2</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="dropdown-item nav-link" href="#">Services Individual
+                            Template
+                            3
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- DROPDOWN Link Third-->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link text-decoration-none fw-bold fs-6 text-dark dropdown-toggle" href="#"
+                        id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Blog
+                      </a>
+                      <ul class="dropdown-menu list-unstyled" aria-labelledby="navbarDropdown">
+                        <li class="nav-item">
+                          <a class="dropdown-item nav-link" href="#">Blog 1</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="dropdown-item nav-link" href="#">Blog 2</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="dropdown-item nav-link" href="#">Blog Individual
+                            Template
+                            3</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- DROPDOWN Link Forth-->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link text-decoration-none fw-bold fs-6 text-dark dropdown-toggle" href="#"
+                        id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">Other
+                      </a>
+                      <ul class="dropdown-menu list-unstyled" aria-labelledby="navbarDropdown">
+                        <li class="nav-item">
+                          <a class="dropdown-item nav-link" href="#">Other 1</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="dropdown-item nav-link" href="#">Other 2</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="dropdown-item nav-link" href="#">Other Individual
+                            Template3</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                  </ul>
+                  <div class="no-hover col-md-2">
+                    <a href="/" class="btn btn-primary contactbtn-top">Contact</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <hr class="container-fluid my-0" />
+  </div>
+  <!-- SECTION 1 -->
+  <div class="container-fluid p-0">
+    <div class="col-md-12 container-default">
+      <div class="row justify-content-center">
+        <div class="row col-md-6 align-self-center justify-content-end">
+          <article class="col-md-8 position-relative">
+            <span class="text-uppercase text-primary fw-bold fs-6 lh-base title-start">
+              HOSPITAL CENTER
+            </span>
+            <h1 class="fw-bold hospital-center lh-base text-dark">Healthcare for Family’s Health</h1>
+            <div class="mt-3">
+              <p class="opacity-100 text-dark col-md-9">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non mauris nulla
+                tincidunt fermentum. Sagittis pellentesque.
+              </p>
+            </div>
+            <div class="my-32">
+              <a href="/"
+                class="text-decoration-none bg-primary text-white fw-bold opacity-100 py-20 px-36 rounded-1 fs-6 text-center">
+                Book an Appointment
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 pe-0">
+          <div class="banner banner-woman"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--SECTION BAR -->
+  <section class="section-contact-bar pt-0 bg-white ">
+    <div class="container-fluid g-0">
+      <div class="section-bar">
+        <div class="contact-bar-wrapper">
+          <div class="row justify-content-center">
+            <div class="col-md-3 d-flex align-items-start">
+              <img src="img/phone.svg" alt="phone" class="me-2" />
+              <div>
+                <h2 class="text-dark fs-3 fw-bold mb-16">Contact Us</h2>
+                <span class="d-block text-muted fs-6 mb-12">(404) 850 - 7080</span>
+                <span class="d-block text-muted fs-6 mb-12">info@medica.com</span>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-start">
+              <img src="img/hours.svg" alt="hours" class="me-2" />
+              <div>
+                <h2 class="text-dark fs-3 fw-bold mb-16">Open Hours</h2>
+                <span class="d-block text-muted fs-6 mb-12">Mon - Fri: 8:00am to 5:00pm</span>
+                <span class="d-block text-muted fs-6 mb-12">Saturday: 9:00am to 3:30pm</span>
+                <span class="d-block text-muted fs-6 mb-12">Sunday: 9:00am to 3:30pm</span>
+              </div>
+            </div>
+            <div class="col-md-3 d-flex align-items-start">
+              <img src="img/care.svg" alt="care" class="me-2" />
+              <div>
+                <h2 class="text-dark fs-3 fw-bold mb-16">Services</h2>
+                <span class="d-block text-muted fs-6 mb-12">Cardiology</span>
+                <span class="d-block text-muted fs-6 mb-12">Gastroenterologist</span>
+                <span class="d-block text-muted fs-6 mb-12">Orthopaedic</span>
+
+              </div>
+            </div>
+          </div>
+          <a href="/" class="arrow-wrap bg-primary">
+            <img src="img/arrow.svg" class="arrow" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECTION 2 -->
+  <div class="container-fluid p-0 bg-color">
+    <div class="col-md-12 container-default">
+      <div class="row justify-content-center">
+        <div class="row col-md-6 align-self-center justify-content-end">
+          <article class="col-md-8 position-relative">
+            <span class="text-uppercase text-primary fw-bold fs-6 lh-base title-start">
+              ABOUT US</span>
+            <h1 class="title-bold text-dark">Our Qualified Team is Ready to Help You!</h1>
+            <div class="mt-3">
+              <p class="opacity-100 text-dark col-md-9">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non mauris nulla
+                tincidunt fermentum. Sagittis pellentesque.
+              </p>
+            </div>
+            <div class="my-32">
+              <a href="/"
+                class="text-decoration-none bg-primary text-white fw-bold opacity-100 py-3 px-36 rounded-1 fs-6 text-center">
+                About Us
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 pe-0">
+          <div class="banner banner-nurses"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- SECTION 3 -->
+  <div class="container-fluid p-0 wrapper-services bg-color">
+    <div class="col-md-12 container-default">
+      <div class="row justify-content-center flex-row-reverse wrapper-img">
+        <div class="row col-md-6 align-self-center justify-content-center">
+          <article class="col-md-8 position-relative">
+            <span class="text-uppercase text-primary fw-bold fs-6 lh-base title-start">
+              WHY US
+            </span>
+            <h1 class="title-bold text-dark">Your Well-Being is our Main Priority.</h1>
+            <div class="mt-3">
+              <p class="opacity-100 text-dark col-12 col-md-9">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non mauris nulla
+                tincidunt fermentum. Sagittis pellentesque.
+              </p>
+            </div>
+            <div class="my-32">
+              <a href="/"
+                class="text-decoration-none bg-primary text-white fw-bolder opacity-100 py-3 px-36 rounded-1 fs-6 text-center">
+                Why Us</a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 ps-0 wrap-pic">
+          <div class="banner banner-about"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SERVICES-->
+  <section class="container">
+    <div class="row justify-content-center gap-4 wrap-article">
+      <div class="col-12 text-center title-top">
+        <figcaption class="figure-caption">
+          <h2 class="text-uppercase text-secondary fs-6">
+            OUR SERVICES
+          </h2>
+          <h1 class="specialties text-black text-center">Specialties</h1>
+          <p class="mb-16 special-text fw-bold fs-6 gray-100 lh-base">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Non mauris nulla tincidunt fermentum. Sagittis pellentesque.
+          </p>
+        </figcaption>
+      </div>
+    </div>
+    <!-- SERVICES_OUR -->
+    <div class="row justify-content-center gap-4 pt-60 container-default">
+      <div class="card" style="width: 21rem;">
+        <div class="card-body">
+          <div class="wrap-img">
+            <img src="./img/toy.svg" class="card-img-top" alt="toy">
+          </div>
+          <h5 class="card-title mt-20 mb-10 lh-lg fs-4 fw-bolder">Pediatricians</h5>
+          <p class="card-text fw-bold fs-6 gray-100 lh-base text-start mb-4">
+            Some quick example text to build on the card
+            title and make up the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-outline-primary w-100 p-3">Learn More</a>
+        </div>
+      </div>
+      <div class="card" style="width: 21rem;">
+        <div class="card-body">
+          <div class="wrap-img">
+            <img src="./img/body.svg" class="card-img-top" alt="body">
+          </div>
+          <h5 class="card-title mt-20 mb-10 lh-lg fs-4 fw-bolder">Plastic Surgeons</h5>
+          <p class="card-text text-start mb-4 fw-bold fs-6 lh-base gray-100">
+            Some quick example text to build on the
+            card title and make up the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-outline-primary w-100 p-3">Learn More</a>
+        </div>
+      </div>
+      <div class="card" style="width: 21rem;">
+        <div class="card-body">
+          <div class="wrap-img">
+            <img src="./img/eye.svg" class="card-img-top" alt="eye">
+          </div>
+          <h5 class="card-title mt-20 mb-10 lh-lg fs-4 fw-bolder">Ophthalmologists</h5>
+          <p class="card-text fw-bold fs-6 gray-100 lh-base text-start mb-4">
+            Some quick example text to
+            build on the card title and make up the bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-outline-primary w-100 p-3">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center mt-4 btn-services">
+      <a href="#" class="btn btn-primary fw-bold fs-6 text-decoration-none text-center py-3 px-5">Our
+        Services
+      </a>
+    </div>
+  </section>
+  <!-- APPOINTMENT -->
+  <div class="container-fluid p-0">
+    <section class="row justify-content-between bg-primary container-default">
+      <article class="row align-self-center justify-content-center col-md-6 pt-60 pb-32 px-5">
+        <div class="col-md-8">
+          <span class="text-uppercase text-white fw-bold fs-6 lh-base">
+            BOOK AN APPOINTMENT
+          </span>
+          <h1 class="text-white lh-sm">Our Medical Team is Ready to Help You.</h1>
+          <div class="mt-20">
+            <p class="opacity-100 mb-10 text-white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non mauris nulla
+              tincidunt fermentum. Sagittis pellentesque.
+            </p>
+          </div>
+        </div>
+        <div class="my-4 row align-items-center col-md-8">
+          <a href="/"
+            class="bg-white text-decoration-none text-primary fw-bold opacity-100 py-3 px-20 rounded-2 fs-6 text-center mr-16 mb-2 border border-white col-sm-12 col-md-4">
+            Contact Us
+          </a>
+          <a href="/"
+            class="border border-2 border-white text-decoration-none text-white fw-bold align-items-center opacity-100 py-3 px-14 rounded-2 fs-6 text-center mb-2 col-sm-12 col-md-6">
+            <img src="./img/call.svg" alt="tel" class=" mr-10 d-inline-block" />(404) 850 - 7080
+          </a>
+        </div>
+      </article>
+      <div class="col-md-6 px-0">
+        <div class="banner banner-couple"></div>
+      </div>
+    </section>
+  </div>
+  <!-- BLOG -->
+  <section class="container text-center mb-80">
+    <div class="row justify-content-center gap-4 wrap-article">
+      <div class="col-12 text-center title-top">
+        <figcaption class="figure-caption">
+          <h2 class="text-uppercase text-secondary fs-6">
+            RECENT NEWS
+          </h2>
+          <h1 class="specialties text-black text-center">Our Latest Stories</h1>
+          <p class="mb-16 special-text fw-bold fs-6 gray-100 lh-base">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Non mauris nulla tincidunt fermentum. Sagittis pellentesque.
+          </p>
+        </figcaption>
+        <!-- News -->
+        <section class="container-fluid">
+          <div class="row justify-content-center gap-4 pt-60 g-0">
+            <div class="card" style="width: 21rem;">
+              <img src="./img/paper.jpeg" alt="prescription">
+              <div class="card-body">
+                <h6 class="blog-post-date text-start gray-100">SEPTEMBER 1,2022</h6>
+                <h5 class="blog-post-title text-start">An Endoscopic, Minimal Scarring
+                  Method Developed
+                </h5>
+                <p class="gray-100 text-start mb-10">Some quick example text to
+                  build on
+                  the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn text-primary fw-bold fs-6 text-start d-flex pl-12">READ MORE
+                  <img src="./img/arrowtight.svg" alt="arrowright" class="d-inline-block px-1">
+                </a>
+              </div>
+            </div>
+            <div class="card" style="width: 21rem;">
+              <img src="./img/doctors.jpeg" alt="doctors">
+              <div class="card-body">
+                <h6 class="blog-post-date text-start gray-100">SEPTEMBER 1,2022</h6>
+                <h5 class="blog-post-title text-start">An Endoscopic, Minimal Scarring
+                  Method Developed
+                </h5>
+                <p class="gray-100 text-start mb-10">Some quick example text to
+                  build on the
+                  card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn text-primary fw-bold fs-6 text-start d-flex pl-12">READ MORE
+                  <img src="./img/arrowtight.svg" alt="arrowright" class="d-inline-block px-1">
+                </a>
+              </div>
+            </div>
+            <div class="card" style="width: 21rem;">
+              <img src="./img/pills.jpeg" alt="pills">
+              <div class="card-body">
+                <h6 class="blog-post-date text-start gray-100">SEPTEMBER 1,2022</h6>
+                <h5 class="blog-post-title text-start">An Endoscopic, Minimal Scarring
+                  Method Developed
+                </h5>
+                <p class="gray-100 text-start mb-10">Some quick example text to
+                  build on the
+                  card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn text-primary fw-bold fs-6 text-start d-flex">READ
+                  MORE <img src="./img/arrowtight.svg" alt="arrowright" class="d-inline-block px-1">
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <!-- Forms -->
+  <section class="container-fluid wrapper-forms">
+    <div class="row">
+      <div class="col-md-6 g-0">
+        <form class="bg-white wrap-first-form">
+          <h2 class="title-first-form">How Can We Help?</h2>
+          <div class="mb-3">
+            <label for="input1" class="form-label">What is your Name?
+            </label>
+            <input type="text" class="form-control input text-area w-input" id="input1" placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <label for="input2" class="form-label">What is your Email?</label>
+            <input type="text" class="form-control input text-area w-input" id="input2"
+              placeholder="email@yourmail.com">
+          </div>
+          <div class="mb-3">
+            <label for="input3" class="form-label">What is your Phone Number?</label>
+            <input type="text" class="form-control input text-area w-input" id="input3" placeholder="(123) 456-7890">
+          </div>
+          <div class="mb-3">
+            <label for="input4" class="form-label">Do you have any message for us?</label>
+            <input type="text" class="form-control input text-area w-input" id="input4"
+              placeholder="Let us know how we can help...">
+          </div>
+          <button type="submit" class="btn btn-primary send-btn fs-6">send your message</button>
+        </form>
+      </div>
+      <div class=" col-md-6 align-self-end g-0">
+        <form class="form-info">
+          <h3 class="title-second-form text-white">Need Some Help?</h3>
+          <div class="row-cols-1">
+            <button type="button" class="btn btn-primary us-btn col-md-6">
+              <img src="./img/call.svg" alt="call" class="mr-16 call-icon" />Call us
+              Today</button>
+            <button type="button" class="btn btn-secondary us-btn border border-1 border-white bg-transparent col-md-6">
+              <img src="./img/email.svg" alt="email" class="mr-16 call-icon" />Send Us a
+              Email</button>
+          </div>
+          <hr class="text-white mb-16 mt-16" />
+          <h3 class="header-visit">Visit Us</h3>
+          <div class="row justify-content-between align-content-center col-md-12">
+            <div class="col-md-6">
+              <h4 class="title-location">LOS ANJELES</h4>
+              <a href="#" class="location-phone text-white">+1 (404) 547 - 8704</a>
+              <span class="text-white location-item d-block">
+                209 North Dunbar St.Santa Monica, CA 90403
+              </span>
+            </div>
+            <div class="col-md-6">
+              <h4 class="title-location">SAN FRANCISCO</h4>
+              <a href="#" class="location-phone text-white d-block hover">+1 (414) 845 -
+                3697</a>
+              <span class="text-white location-item">
+                58 Middle Point <br>Rd San Francisco, CA
+              </span>
+            </div>
+          </div>
+      </div>
+      </form>
+    </div>
+    </div>
+  </section>
+  <hr class="mt-0 mb-0" />
+  <!-- Footer -->
+  <footer class="container col-md-12 w-75 ">
+    <div class="row header-footer col-md-12 justify-content-center align-self-center">
+      <a href="/" class="mb-4 col-md-6">
+        <img class="logo-footer" src="./img/logo.svg" />
+      </a>
+      <div class="social-network col-md-6">
+        <i class="fa fa-facebook fa-2x text-primary pl-24 d-inline-block" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-2x text-primary pl-24 d-inline-block" aria-hidden="true"></i>
+        <i class="fa fa-instagram fa-2x text-primary pl-24 d-inline-block" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center align-self-center">
+        <div class="col-md-3">
+          <ul class="pl-0">
+            <h4 class="footer-title fw-bold lh-base">Menu</h4>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">Home</a>
+            </li>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">About Us</a>
+            </li>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">Services</a>
+            </li>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">Doctor Template1</a>
+            </li>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">Doctor Template2</a>
+            </li>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">Blog Template1</a>
+            </li>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">Blog Template2</a>
+            </li>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="pl-0">
+            <h4 class="footer-title fw-bold lh-base">Utility Pages</h4>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">Styleguide</a>
+            </li>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">Licenses</a>
+            </li>
+            <li class="footer-li list-unstyled ">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">Password
+                Protected</a>
+            </li>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">404 Not Found
+                Page</a>
+            </li>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">Start Here</a>
+            </li>
+            <li class="footer-li list-unstyled">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100">Changelog</a>
+            </li>
+            <li class="footer-li list-unstyled  footer-link d-inline-block fw-bold gray-100 text-primary lh-2">
+              <a href="/" class="text-decoration-none border-primary border-bottom pb-1">More
+                Webflow
+                Templates</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="pl-0">
+            <h4 class="footer-title fw-bold lh-base">Contact Us</h4>
+            <li class="list-unstyled text-start">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100 d-inline-block">
+                <img src="./img/phone2.svg" alt="tel" class="mr-10 call-icon" width="25px" />
+                (404) 874 - 4870
+              </a>
+            </li>
+            <li class="list-unstyled text-start">
+              <img src="./img/location.svg" alt="location" class="fs-6 location-img d-inline-block mr-10 mb-4"
+                width="35px" />
+              <p class="list-unstyled text-decoration-none mb-2 fw-bold gray-100 w-75 d-inline-block lh-base">
+                9663 Fulton Drive Carol
+                Stream,IL 60188.
+              </p>
+
+            </li>
+            <li class="list-unstyled text-start">
+              <a href="/" class="text-decoration-none mb-2 fw-bold gray-100 d-inline-block">
+                <img src="./img/email2.svg" alt="email" class="mr-10 img-info" width="35px" />
+                info@medica.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="pl-0">
+            <h4 class="footer-title fw-bold lh-base">Book an Appointment</h4>
+            <li class="list-unstyled mb-3">
+              <div class="fw-bold gray-100 lh-base">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Amet maecenas eros elit
+              </div>
+            </li>
+            <div class="mt-20 row">
+              <a href="/"
+                class="d-inline-block bg-primary text-decoration-none call-number text-white py-3 px-24 fw-bold opacity-100 rounded-2 fs-6 text-center">
+                <img src="./img/call.svg" alt="tel" class="mr-10 call-img mw-100" />
+                <span class="">(404) 850 - 7080</span>
+              </a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="footer-bottom py-4 px-2 text-center gray-100 fw-bold fs-6 col-md-12 col-sm-6">
+    Medica Template © Copyright | Designed & Developed by BRIX Templates | Powered by Webflow
+  </div>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+</body>
+
+</html>
